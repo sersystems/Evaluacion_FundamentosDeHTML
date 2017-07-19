@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Scalable Vector Graphic-->
+<svg version="1.1" 
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"     
+     baseProfile="full"
+	 width="200" height="120">
+        
+		<defs>
+            <radialGradient id="fondoDegrade">
+				<stop offset="0%" stop-color="rgb(212,0,0)"/>
+				<stop offset="98%" stop-color="rgb(85,0,0)"/>
+            </radialGradient>
+        </defs>
+			
+			<g>
+				<rect x="10" y="10" rx="10" ry="10" width="180" height="100" 
+				fill="url(#fondoDegrade)" stroke="black" stroke-width="1"></rect>
+				<text x="22" y="85" fill="rgb(255,255,255)" 
+				font-family="Arial" font-size="75" font-weight="bold" stroke="Gray" stroke-width="1">SER</text>
+			</g> 
+</svg>

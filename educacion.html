@@ -11,15 +11,103 @@
 
 <body>
 	<header>
+    	<figure>
+        	<img src="Imagenes/logo.svg" alt="Logo de Sergio Alberto Regalado Alessi" width="180" height="100"/>
+		</figure>
+        
     	<h1>Curriculum Vitae</h1>
-    </header>
+     	<h2>Nombres: Sergio Alberto</h2>
+     	<h2>Apellidos: Regalado Alessi</h2>
+    	<h3>Fecha de Nacimiento: 11 de Marzo de 1980 (San Juan)</h3><br>
+		
+        <nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+               	<li><a href="educacion.html">Educaci&oacuten</a></li>
+               	<li><a href="experiencia.html">Experiencia</a></li>
+			</ul>
+		</nav>
+	</header>
     
+    <section>
+    	<h2>Educaci&oacuten</h2>
+		<table border="1" cellpadding="10" cellspacing="0">
+			<thead>
+				<tr>
+                    <th>A&ntildeo</th>
+                    <th>Instituci&oacuten</th>
+                    <th>Lugar</th>
+                    <th>¿Culmin&oacute?</th>
+                </tr>
+            </thead>
+			<tbody>
+				<tr>
+					<td>2003</td>
+					<td>Escuela CENS Nº74</td>
+					<td>San Juan - Argentina</td>
+					<td>SI</td>
+				</tr>
+				<tr>
+					<td>2011</td>
+					<td>Instituto ISRI</td>
+					<td>San Juan - Argentina</td>
+					<td>SI</td>
+				</tr>                
+				<tr>
+					<td>2016</td>
+					<td>Universidad Siglo XXI</td>
+					<td>Cordoba - Argentina</td>
+					<td>SI</td>
+				</tr>                
+				<tr>
+					<td>2017</td>
+					<td>Next University</td>
+					<td>Florida - USA</td>
+					<td>NO</td>
+				</tr>                
+        	</tbody>
+		</table>
+        
+        <h4>Agregar Estudios</h4>
+        <form action="">
+            <p>
+               	<label for="anio">A&ntildeo: </label>
+                <select name="anio">
+               	    <option value="1">2010</option>
+                    <option value="1">2011</option>
+                    <option value="1">2012</option>
+                    <option value="1">2013</option>
+                    <option value="1">2014</option>
+                    <option value="1">2015</option>
+                    <option value="1">2016</option>
+                </select>
+            </p>
+            <p>
+                <label for="institucion">Instituci&oacuten: </label>
+                <input type="text" name="institucion" placeholder="Ej: Escuela Nacional Argentina"
+                	size="55" maxlength="55" required>
+            </p>
+          	<p>
+                <label for="lugar">Lugar: </label>
+	          	<textarea name="lugar" rows="2" cols="61"placeholder="Ej: San Juan - Argentina" ></textarea>
+            </p>
+            <p>	
+                <label for="culminacion">¿Culmin&oacute?: </label>
+                <input type="radio" name="culminacion"> Si
+                <input type="radio" name="culminacion"> No
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+        </form>
+    </section>
+      
     <footer>
        	<small>&#169; Derechos Reservados</small><br>
     	<ul>
- 			<li>Correo electr&oacutenico: serdigital@live.com.ar</li>
+ 			<li>Correo electr&oacutenico: <a href="mailto:serdigital@live.com.ar">serdigital@live.com.ar</a></li>
  			<li>Tel&eacutefono: (0264) 424-1074</li>
- 			<li>Direcci&oacuten: <address>Guemes 614, Rawson, San Juan, ARGENTINA</address></li>
+ 			<li>Direcci&oacuten: Guemes 614, Rawson, San Juan, ARGENTINA</li>
         </ul>
     </footer>
 </body>
